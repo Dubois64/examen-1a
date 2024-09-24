@@ -59,3 +59,16 @@ p {
   gap: 350px;
   background: #8ecae6;
 }
+
+.bloc-4 {
+  width: 1728px;
+  height: 500px;
+  flex-shrink: 0;
+  background: #8ecae6;
+  padding-left: 20%;
+}
+
+.bloc-4 p {
+  display: inline;
+  padding: 5px;
+}
