@@ -43,11 +43,14 @@ p {
   display: flex;
   justify-content: end;
   flex-wrap: wrap;
+  display: inline;
 }
 
 .bloc-2 p {
   display: flex;
   flex-direction: column;
+  align-items: end;
+  width: 100%;
 }
 
 .bloc-3 {
