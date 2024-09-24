@@ -21,15 +21,6 @@ video {
   display: flex;
   align-items: center;
 }
-.espace {
-  display: flex;
-  width: 1728px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 50px;
-  background: #fff;
-}
 
 p {
   color: #fff;
@@ -45,4 +36,26 @@ p {
 }
 
 .bloc-2 {
+  width: 1728px;
+  height: 530px;
+  flex-shrink: 0;
+  background: #8ecae6;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.bloc-2 p {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc-3 {
+  width: 1728px;
+  height: 230px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  display: flex;
+  gap: 350px;
+  background: #8ecae6;
 }
