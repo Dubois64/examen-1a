@@ -12,3 +12,37 @@ img,
 video {
   display: block;
 }
+
+.bloc-1 {
+  width: 1728px;
+  height: 230px;
+  flex-shrink: 0;
+  background: #8ecae6;
+  display: flex;
+  align-items: center;
+}
+.espace {
+  display: flex;
+  width: 1728px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  background: #fff;
+}
+
+p {
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 100% */
+  width: 432px;
+  height: 130px;
+  border: 1px solid #146c81;
+  background: #219ebc;
+}
+
+.bloc-2 {
+}
