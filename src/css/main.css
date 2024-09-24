@@ -49,7 +49,7 @@ p {
 .bloc-2 p {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   width: 100%;
 }
 
@@ -88,4 +88,8 @@ p {
   width: 864px;
   height: 130px;
   flex-shrink: 0;
+}
+
+* {
+  background-color: #8ecae6;
 }
