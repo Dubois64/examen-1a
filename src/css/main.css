@@ -72,3 +72,17 @@ p {
   display: inline;
   padding: 5px;
 }
+
+.bloc-5 {
+  width: 1728px;
+  height: 360px;
+  background: #8ecae6;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bloc-5 p {
+  width: 864px;
+  height: 130px;
+  flex-shrink: 0;
+}
